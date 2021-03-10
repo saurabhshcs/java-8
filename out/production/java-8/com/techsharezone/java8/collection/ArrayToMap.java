@@ -1,4 +1,8 @@
-class ArrayToMap{
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.IntStream;
+
+public class ArrayToMap{
   
   final String str = "s,a,u,r,a,b,h,s,h,a,r,m,a";
   final String arr[] = str.split(",");
